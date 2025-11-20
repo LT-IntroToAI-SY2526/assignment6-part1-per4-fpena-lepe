@@ -208,23 +208,23 @@ if __name__ == "__main__":
     data = load_and_explore_data('ice_cream_sales.csv')
     
     # Step 2: Visualize the relationship
-    create_scatter_plot(data)
+    #create_scatter_plot(data)
     
     # Step 3: Split the data
-    X_train, X_test, y_train, y_test = split_data(data)
+    #X_train, X_test, y_train, y_test = split_data(data)
     
     # Step 4: Train the model
-    model = train_model(X_train, y_train)
+   # model = train_model(X_train, y_train)
     
     # Step 5: Evaluate the model
-    predictions = evaluate_model(model, X_test, y_test)
+    #predictions = evaluate_model(model, X_test, y_test)
     
     # Step 6: Visualize results
-    visualize_results(X_train, y_train, X_test, y_test, predictions, model)
+    #visualize_results(X_train, y_train, X_test, y_test, predictions, model)
     
     # Step 7: Make a new prediction
-    make_prediction(model, 85)
+    #make_prediction(model, 85)
     
-    print("\n" + "=" * 60)
-    print("✓ Example complete! Check out the saved plots.")
-    print("=" * 60)
+    #print("\n" + "=" * 60)
+    #print("✓ Example complete! Check out the saved plots.")
+    #print("=" * 60)
